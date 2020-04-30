@@ -21,13 +21,23 @@ html, body {
     top: 0;
     left: 0;
 }
-.navbar-toggler {
-    margin-right: 7px;
+.navbar-flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .navbar-brand img {
     max-height: 95px;
 }
-
+.navbar-toggler {
+    margin-right: 7px;
+}
+.navbar-collapse {
+    width: 48%;
+}
+.navbar-brand {
+    width: 52%;
+}
 .nav-item {
     font-family: Novecento, serif;
     color: black;
@@ -177,7 +187,6 @@ footer img {
 }
 
 @media (max-width: 530px) {
-
     #lab-equipment.container {
         padding: 0;
     }
@@ -189,6 +198,17 @@ footer img {
 }
 
 @media (max-width: 991px) {
+    .navbar-logo {
+        display: block !important;
+    }
+    .navbar-collapse {
+        margin-top: -8px;
+        order: 1;
+    }
+    .navbar-brand {
+        width: 50%;
+        padding: 15px;
+    }
     .caption h3 {
         font-size: 25pt;
     }
