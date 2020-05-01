@@ -1,6 +1,6 @@
 const allWaypoints = [
     new Waypoint({
-        element: document.getElementById('description'),
+        element: document.querySelector('section:nth-child(2)'),
         handler: direction => {
             if (direction === "down") {
                 document.querySelector('nav').classList.add('sticky');
