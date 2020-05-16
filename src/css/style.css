@@ -91,7 +91,7 @@ html, body {
 .caption {
     position: absolute;
     right: 15%;
-    bottom: 30%;
+    bottom: 35%;
     left: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -171,6 +171,9 @@ footer {
     letter-spacing: 1px;
 }
 
+footer p {
+    margin-top: 10px;
+}
 footer a {
     color: #888;
     text-decoration: none !important;
@@ -179,7 +182,6 @@ footer a:hover {
     color: #a1a1a1;
 }
 footer img {
-    filter: brightness(0.5) invert(1);
     max-width: 400px;
 }
 .img-preview {
