@@ -46,6 +46,9 @@ html, body {
     letter-spacing: 2px;
     text-shadow: 1px 1px 7px #c8ccc9;
 }
+.home-icon {
+    margin-left: 20px;
+}
 .goto {
     margin-top: -190px;
     padding-bottom: 190px;
@@ -91,7 +94,7 @@ html, body {
 .caption {
     position: absolute;
     right: 15%;
-    bottom: 35%;
+    bottom: 10%;
     left: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -102,6 +105,7 @@ html, body {
     font-size: 35pt;
 }
 .caption p {
+    margin-top: -10px;
     font-size: 14pt;
 }
 .caption p, .caption h3 {
@@ -159,8 +163,8 @@ card li {
 card img {
     max-height: 350px;
 }
-.btn-contact a{
-    margin-bottom: -190px;
+.btn-contact {
+    border-radius: 10rem;
 }
 footer {
     color: #888;
@@ -182,7 +186,7 @@ footer a:hover {
     color: #a1a1a1;
 }
 footer img {
-    max-width: 400px;
+    max-width: 220px;
 }
 .img-preview {
     display: flex;
